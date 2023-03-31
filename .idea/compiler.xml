@@ -7,8 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="POSITIVE" />
-        <module name="PROJECT_NAME" />
+        <module name="inverseInt_statement" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PROJECT_NAME" target="17" />
+      <module name="statement" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

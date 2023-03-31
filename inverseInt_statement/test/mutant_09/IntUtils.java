@@ -1,4 +1,4 @@
-package mutant_10;
+package mutant_09;
 
 import caseine.extra.utils.mutations.Mutant;
 
@@ -10,8 +10,8 @@ public class IntUtils {
         while (num != 0) {
             int lastDig = num % 10;
             resultNum += lastDig;
-            resultNum = resultNum * 10;
-            // CHANGED BACK - gives infinite loop
+            //10
+            resultNum = resultNum * 11;
             num = num / 10;
         }
         resultNum = resultNum / 10;

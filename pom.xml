@@ -5,7 +5,7 @@
         <groupId>org.caseine</groupId>
         <artifactId>caseine.vpl.parent</artifactId>
         <!-- preferably choose the most recent version -->
-        <version>0.0.59</version>
+        <version>0.0.60</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>COURSE_NAME</artifactId>
@@ -18,8 +18,8 @@
     </properties>
 
     <modules>
-        <module>MyProject</module>
-        <module>MyMutants</module>
+        <module>inverseInt_classical</module>
+        <module>inverseInt_statement</module>
     </modules>
 
 </project>

@@ -1,4 +1,4 @@
-package mutant_21;
+package mutant_13;
 
 import caseine.extra.utils.mutations.Mutant;
 
@@ -13,10 +13,12 @@ public class IntUtils {
             resultNum = resultNum * 10;
             num = num / 10;
         }
-        resultNum = resultNum / 10;
+        // 10
+        resultNum = resultNum / 11;
         if (resultNum > Integer.MAX_VALUE || resultNum < Integer.MIN_VALUE) {
             return 0;
         }
+
         return (int) resultNum;
     }
 

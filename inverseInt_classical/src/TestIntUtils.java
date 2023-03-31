@@ -8,6 +8,7 @@ import caseine.tags.ToDoIn;
 public class TestIntUtils {
 
 	@Test
+	@ToDo
 	public void testOne() {
 		assertEquals(1, IntUtils.reverseInt(1));
 	}
@@ -20,7 +21,7 @@ public class TestIntUtils {
 
 
 	@Test
-	@ToDoIn("N'oublie pas de tester les cas limites!")
+	//@ToDoIn("N'oublie pas de tester les cas limites!")
 	public void testZero() {
 		assertEquals(0, IntUtils.reverseInt(0));
 	}

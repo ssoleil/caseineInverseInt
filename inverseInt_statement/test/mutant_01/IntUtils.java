@@ -1,4 +1,4 @@
-package mutant_04;
+package mutant_01;
 
 import caseine.extra.utils.mutations.Mutant;
 
@@ -6,9 +6,9 @@ import caseine.extra.utils.mutations.Mutant;
 public class IntUtils {
 
     public static int reverseInt(int num) {
-        long resultNum = 0;
-        //0
-        while (num != 1) {
+        //long
+        int resultNum = 0;
+        while (num != 0) {
             int lastDig = num % 10;
             resultNum += lastDig;
             resultNum = resultNum * 10;
